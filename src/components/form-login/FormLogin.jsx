@@ -46,7 +46,6 @@ const FormLogin = () => {
 
 				<Input type="email" label="E-mail" name="email" />
 				<Input
-					type="password"
 					label="Password"
 					name="password"
 					type={showPassword ? 'text' : 'password'}
