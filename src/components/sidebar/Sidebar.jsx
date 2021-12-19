@@ -16,28 +16,48 @@ const Sidebar = () => {
 	return (
 		<Paper elevation={2} className={classes.paper}>
 			<Typography component="h6" variant="h5" sx={{ ml: '15px', mb: '20px' }}>
-				Категории
+				Categories
 			</Typography>
 
 			<List>
 				<ListItem disablePadding>
 					<ListItemButton component="a" href="#simple-list">
-						<ListItemText primary="Пикапы" />
+						<ListItemText primary="Sedan" />
 					</ListItemButton>
 				</ListItem>
 				<ListItem disablePadding>
 					<ListItemButton component="a" href="#simple-list">
-						<ListItemText primary="Грузовые" />
+						<ListItemText primary="Coupe" />
 					</ListItemButton>
 				</ListItem>
 				<ListItem disablePadding>
 					<ListItemButton component="a" href="#simple-list">
-						<ListItemText primary="Легковые" />
+						<ListItemText primary="Sports car" />
 					</ListItemButton>
 				</ListItem>
 				<ListItem disablePadding>
 					<ListItemButton component="a" href="#simple-list">
-						<ListItemText primary="Мотоциклы" />
+						<ListItemText primary="Station wagon" />
+					</ListItemButton>
+				</ListItem>
+				<ListItem disablePadding>
+					<ListItemButton component="a" href="#simple-list">
+						<ListItemText primary="Hatchback" />
+					</ListItemButton>
+				</ListItem>
+				<ListItem disablePadding>
+					<ListItemButton component="a" href="#simple-list">
+						<ListItemText primary="Convertible" />
+					</ListItemButton>
+				</ListItem>
+				<ListItem disablePadding>
+					<ListItemButton component="a" href="#simple-list">
+						<ListItemText primary="Minivan" />
+					</ListItemButton>
+				</ListItem>
+				<ListItem disablePadding>
+					<ListItemButton component="a" href="#simple-list">
+						<ListItemText primary="Pickup truck" />
 					</ListItemButton>
 				</ListItem>
 			</List>

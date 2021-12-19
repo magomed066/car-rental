@@ -13,6 +13,7 @@ import {
 	MenuItem,
 	Button,
 } from '@mui/material'
+import { Link } from 'react-router-dom'
 const Header = () => {
 	const [auth, setAuth] = React.useState(true)
 	const [anchorEl, setAnchorEl] = React.useState(null)
@@ -41,12 +42,18 @@ const Header = () => {
 					>
 						<MenuIcon />
 					</IconButton>
+
 					<Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-						Car Rental App
+						<Link to="/cars">Car Rental App</Link>
 					</Typography>
 					<Button variant="contained" color="info" sx={{ mr: '20px' }}>
-						Bookmarked
+						Saved
 					</Button>
+					<Link to="/rent-car">
+						<Button variant="contained" color="info" sx={{ mr: '20px' }}>
+							Rent a car
+						</Button>
+					</Link>
 					{auth && (
 						<>
 							<IconButton
