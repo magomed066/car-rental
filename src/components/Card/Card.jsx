@@ -7,7 +7,7 @@ import {
 	Typography,
 	IconButton,
 } from '@mui/material'
-import { Bookmark, Favorite } from '@mui/icons-material'
+import { Favorite } from '@mui/icons-material'
 
 const Card = () => {
 	return (
